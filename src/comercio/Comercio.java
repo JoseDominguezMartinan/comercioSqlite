@@ -20,9 +20,10 @@ public class Comercio {
         // TODO code application logic here
          Ticket ticket;
         Arrays arrays1=new Arrays();
+        arrays1.utilizarNomePrecio(JOptionPane.showInputDialog("inserte o numero de referencia"));
         ticket=arrays1.crearTicket("2");
         System.out.println(ticket.toString());
-        arrays1.utilizarNomePrecio(JOptionPane.showInputDialog("inserte o numero de referencia"));
+        
         System.out.println(Arrays.nomeProducto+" "+Arrays.precioProducto);
         
     }
